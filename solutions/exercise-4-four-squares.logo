@@ -1,0 +1,24 @@
+clear
+
+TO drawsquare
+	repeat 4
+		forward 100
+		left 90
+	end repeat
+END TO
+
+setx 10
+sety 10
+drawsquare
+
+setx 110
+sety 10
+drawsquare
+
+setx 10
+sety 110
+drawsquare
+
+setx 110
+sety 110
+drawsquare

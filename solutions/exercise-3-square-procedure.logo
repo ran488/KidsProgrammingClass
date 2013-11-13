@@ -1,0 +1,10 @@
+clear
+
+TO drawsquare
+	repeat 4
+		forward 100
+		right 90
+	end repeat
+END TO
+
+drawsquare
